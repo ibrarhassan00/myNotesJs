@@ -1,56 +1,58 @@
-let h = 0
+// let varial ky sath starting point ,,, while ( stopting point ) { print logic variable++ }
+
+let h = 0;  
 while(h<=10){console.log(h);
-    i++
+    h++;
 }
 
 let b = 10;
 while(b>=0){console.log(b);
-    b--
+    b--;
 }
 
 let c = 10;
 while(c>=0){console.log(c);
-    c=c-2
+    c=c-2;
 }
 
 let d = 0;
-while(d<=50){console.log(d)
-    d=d+4
+while(d<=50){console.log(d);
+    d=d+4;
 }
 
-let otherName = "ibrar hassan"
-let e = 0
-while(e<otherName.length){console.log(otherName[e])
-    e=e+1
+let otherName = "ibrar hassan";
+let e = 0;
+while(e<otherName.length){console.log(otherName[e]);
+    e=e+1;
 }
 
-let otherNumber = [125,542,568,7865,2145,526545]
+let otherNumber = [125,542,568,7865,2145,526545];
 
 let f =0;
-while(f<otherNumber.length){console.log(otherNumber[f])
-    f++
+while(f<otherNumber.length){console.log(otherNumber[f]);
+    f++;
 }
 
-let otherNumber1 = [125,542,568,7865,2145,526545]
+let otherNumber1 = [125,542,568,7865,2145,526545];
 
 let g = otherNumber1.length-1 ;
 
-while(g >=0){console.log(otherNumber1[g])
-    g--
+while(g >=0){console.log(otherNumber1[g]);
+    g--;
 }
 
 
 let i=1;
 while (i<=10) {
-    let j=1 
+    let j=1; 
     while(j<=10){
-        let multiplication = i*j
-        console.log(`${i} = ${j} * ${multiplication} ` )
-        j++
-        console.log("--------------------------")
+        let multiplication = i*j;
+        console.log(`${i} = ${j} * ${multiplication} ` );
+        j++;
+        console.log("--------------------------");
     }
-    console.log("New Table start ")
-    i++
+    console.log("New Table start ");
+    i++;
 }
 /*
 1 = 1 * 1 
