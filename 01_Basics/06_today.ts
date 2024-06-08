@@ -9,8 +9,15 @@
 
 //----------------------------------------------time limit set in function-----------------------------------------------------
 
-function orderPizza (){
-    setTimeout(()=>{console.log("order paced") },2000)
+function orderPizza (prepareFizza){
+    setTimeout(()=>{console.log("order paced");
+        prepareFizza()
+     },2000)
 }
 
-orderPizza()
+function prepareFizza (){
+    setTimeout(()=>{console.log("prepared pizza")},2000)
+    
+}
+
+orderPizza(prepareFizza)
